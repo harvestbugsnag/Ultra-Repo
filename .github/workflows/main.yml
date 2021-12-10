@@ -1,0 +1,9 @@
+- name: Issue Card Creator
+  # You may pin to the exact commit or the version.
+  # uses: somnolentPumpkin/issue-card-creator@89dbd40b62d2eae591c303fc7189fa91190a6362
+  uses: somnolentPumpkin/issue-card-creator@Action
+  with:
+    # A JSON object containing the data for which labels create cards on which project board.
+    actions: # default is {"data": [ { "label": "bug", "project": "Bug Tracker Project", "project-type": "repo" "column": "To-Fix", "repo": "bug-tracker-repo" }, { "label": "wontfix", "project": "Some Organization-wide Project", "project-type": "org" "column": "Icebox", "org": "super-important-org" } ]}
+    # Your GitHub access token
+    github-token: # default is ${{github.token}}
