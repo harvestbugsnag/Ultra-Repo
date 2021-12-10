@@ -13,6 +13,7 @@ jobs:
         uses: somnolentPumpkin/issue-card-creator@1.23
         id: hello
         with:
+          github-token: ${{ secrets.ACCESS_TOKEN }}
           actions: '{"data": [
             {
               "label": "test",
