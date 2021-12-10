@@ -20,5 +20,6 @@ jobs:
               "project_type": "org",
               "column": "Column 2",
               "org": "qe-test-org"
-            },
+            },{
+            }
           ]}'
