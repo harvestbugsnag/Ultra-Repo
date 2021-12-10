@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Issue Card Creator
-        uses: somnolentPumpkin/issue-card-creator@Action
+        uses: somnolentPumpkin/issue-card-creator@1.1
         id: hello
         with:
           actions: '{"data": [
