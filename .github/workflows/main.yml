@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Issue Card Creator
-        uses: somnolentPumpkin/issue-card-creator@1.23
+        uses: somnolentPumpkin/issue-card-creator@1.24
         id: hello
         with:
           github-token: ${{ secrets.ACCESS_TOKEN }}
