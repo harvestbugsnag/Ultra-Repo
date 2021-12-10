@@ -23,7 +23,7 @@ jobs:
             },
             {
               "label": "bug",
-              "project" "Super Project",
+              "project": "Super Project",
               "project_type": "repo",
               "column": "Super Column",
               "repo": "Ultra-Repo"
